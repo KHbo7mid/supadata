@@ -23,7 +23,7 @@ This project consists of two main parts:
 ✅ Profile management  
 ✅ Digital business card creation  
 ✅ QR code generation  
-✅ Mobile-friendly UI  
+✅ responsive UI  
 
 ---
 
