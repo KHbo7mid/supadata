@@ -1,0 +1,8 @@
+.form-control.is-invalid {
+    border-color: #dc3545; /* Red border color for invalid input */
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: #dc3545; /* Red color for error text */
+  }

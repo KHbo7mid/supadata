@@ -1,0 +1,40 @@
+.DownloadContainer{
+    margin-top: 90px;
+   border-right: 1px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.UploadContainer{
+   
+    border-right: 1px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.download_csv{
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fileCSV button {
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.fileCSV img{
+    width: 20%;
+    margin-bottom: 30px;
+}
+.upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,0 +1,15 @@
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+.form-group i {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    color: #ccc;
+}
+.social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}

@@ -1,0 +1,162 @@
+.cardLive {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    ;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 480px;
+    height: 580px;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  .cover-photo {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+  }
+  .profile-container {
+    position: absolute;
+    top: 15%;
+    
+   width: 120px;
+   left: 14%;
+    transform: translateX(-50%);
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateX(21.5%);
+    border-radius: 50%;
+  }
+  .cover {
+    width: 100%;
+    height: 30%;
+    background-color: #bebebe74;
+  }
+  .card-details {
+    margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+   
+  }
+  .card-details i{
+   
+                    
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .personelInfo{
+width: 100%;
+text-align: left;
+margin-top: 30px;
+padding-left: 40px;
+  }
+  .card-details li{
+    list-style-type:none;
+    margin-bottom: 10px;
+
+  }
+  .company_logo {
+    position: absolute;
+    top: 115px;
+    width: 126px;
+    height: 110px;
+    right: 10px;
+    border: 4px solid #fff;
+    border-radius: 15px;
+    background: #fff;
+    margin-right: 0 !important;
+  }
+  .card-details h4 {
+    margin-top: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  }
+  .card-details span {
+    margin-top: 20px;
+font-weight: bold;
+font-size: 14px;
+    font-family: 'LouisGeorgeCafe', sans-serif;
+  }
+  
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  @media (max-width: 991px) {
+    .cardLive{
+      display: none;
+    }
+  }
+  

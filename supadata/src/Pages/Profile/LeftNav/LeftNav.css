@@ -1,0 +1,64 @@
+.left-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px; 
+    height: 100%;
+    background-color: #f8f9fa; 
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+    overflow-y: auto; 
+}
+
+.left-nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.left-nav .nav-link:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+.left-nav .nav-text {
+    margin-left: 11px; 
+}
+.left-nav .logo {
+    display: block;
+    width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    margin: 20px auto; 
+}
+@media (max-width: 991px) {
+    .left-nav {
+        width: 80px; /* Narrow width on small screens */
+        transition: width 0.3s ease; /* Smooth transition for width change */
+    }
+
+    .left-nav .nav-text {
+        display: none;
+    }
+
+    .left-nav .logo {
+        max-width: 50px; 
+        margin: 20px auto; 
+    }
+    
+
+    /* Expand left-nav width when hovered on small screens */
+    .left-nav:hover {
+        width: 220px; /* Expand width when hovered */
+    }
+
+    /* Show nav text when hovered */
+    .left-nav:hover .nav-text {
+        display: inline-block;
+    }
+    .left-nav:hover .logo{
+        max-width: 100px;
+    }
+}

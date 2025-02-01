@@ -1,0 +1,12 @@
+# Laravel (Backend) - supadata_api
+vendor/
+node_modules/
+storage/
+.env
+public/storage
+bootstrap/cache/
+
+# React (Frontend) - supadata
+node_modules/
+.env
+build/
