@@ -31,7 +31,7 @@ This project consists of two main parts:
 
 ### **1️⃣ Clone the Repository**
 
-git clone https://github.com/your-username/supadata.git
+git clone https://github.com/your-username/supadata.git 
 cd supadata
 
 ### **2️⃣ Backend (Laravel) Setup**
