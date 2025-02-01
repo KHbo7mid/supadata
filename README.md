@@ -31,22 +31,22 @@ This project consists of two main parts:
 
 ### **1️⃣ Clone the Repository**
 
-git clone https://github.com/your-username/supadata.git 
+git clone https://github.com/your-username/supadata.git       
 cd supadata
 
 ### **2️⃣ Backend (Laravel) Setup**
 
-cd supadata_api
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
+cd supadata_api       
+composer install     
+cp .env.example .env     
+php artisan key:generate     
+php artisan migrate --seed    
+php artisan serve     
 
 ### **3️⃣ Frontend (React) Setup**
 
-cd ../supadata
-npm install
-npm start
+cd ../supadata      
+npm install      
+npm start      
 
 Now, visit http://localhost:3000 to see the frontend and http://127.0.0.1:8000 for the API.
